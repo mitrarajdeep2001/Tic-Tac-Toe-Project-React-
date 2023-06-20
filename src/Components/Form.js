@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Form = ({ p1, p2, setP1, setP2, showForm, setShowForm }) => {
   function getPlayers(e) {
     e.preventDefault();
-    console.log(p1, p2);
     setShowForm(!showForm);
   }
   return (
