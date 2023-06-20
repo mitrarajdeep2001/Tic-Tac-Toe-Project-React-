@@ -130,8 +130,11 @@ form input {
   border: 1px solid black;
   border-radius: 5px;
   cursor: pointer;
-  text-align: center;
-  padding-top: 8px;
+  /* text-align: center;
+  padding-top: 8px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 4rem;
   font-family: "Poppins", sans-serif;
 }
